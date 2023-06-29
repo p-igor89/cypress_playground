@@ -2,7 +2,7 @@
 
 it('Using get with Find and Eq', () => {
     cy.viewport(1920, 1080)
-    cy.visit('next.privat24.ua/deposit/open')
+    cy.visit('https://next.privat24.ua/deposit/open')
     cy.get('tbody').find('td').find('div').find('button').eq(0);
 })
 
