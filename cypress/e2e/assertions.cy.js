@@ -18,7 +18,7 @@ it('assertion expect', () => {
     })
 })
 
-it('check statument for element by default', () => {
+it('check statement for element by default', () => {
     cy.visit('https://next.privat24.ua/deposit/open?lang=en')
     cy.get('[data-qa-value="UAH"]')
     .should('be.checked')
